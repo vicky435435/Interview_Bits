@@ -1,0 +1,45 @@
+// an array of integers and returns the second lowest number. Eg: Input: [10, 5, 3, 14, 8, 2] Output: 3
+
+let numbers = [10, 5, 3, 14,8, 2];
+
+let newNumbers = [...new Set(numbers)];
+
+if (newNumbers.length > 1){
+    let lowestNum = newNumbers.sort((a, b) => a - b) [1];
+        console.log(`sceond number is : ${lowestNum}`);
+    } else {
+        conslog.log(" there second lowest number")
+}
+
+
+
+// Print duplicate characters once
+// str="aaaaabbcdeffffxyzzz"
+
+
+const str = "aaaaabbcdeffffxyzzz";
+const charCount = {};
+
+for (const char of str) {
+    charCount[char] = (charCount[char] || 0) + 1;
+}
+
+for (const char in charCount) {
+    if (charCount[char] > 1) {
+        console.log(char);
+    }
+}
+
+
+// for(let i =1; i <=30; i++){
+//     if(i% 15 === 0){
+//         console.log("AB");
+//     }else if (i % 3 === 0){
+//         console.log("A")
+//     }else if (i % 5 === 0){
+//         console.log("B")
+//     } else {
+//         console.log(i)
+//     }
+    
+// }

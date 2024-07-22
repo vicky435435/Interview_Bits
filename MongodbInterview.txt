@@ -1,0 +1,46 @@
+
+
+What is MongoDB?
+This is a basic question to ensure that you understand MongoDB's role as a NoSQL document database.
+
+Explain the difference between a relational database and MongoDB.
+Highlight the key distinctions between MongoDB (a NoSQL database) and traditional relational databases, such as schema, data model, and scalability.
+
+What is a BSON?
+BSON (Binary JSON) is the binary-encoded serialization of JSON-like documents used by MongoDB. It's a format that allows MongoDB to represent complex data structures.
+
+What is a document in MongoDB?
+In MongoDB, a document is a JSON-like data structure composed of field-value pairs. Documents are the basic unit of data in MongoDB and are analogous to rows in a relational database.
+
+Explain the concept of a collection in MongoDB.
+A collection in MongoDB is a group of MongoDB documents. It's similar to a table in a relational database.
+
+How does indexing work in MongoDB?
+Indexing is crucial for performance in MongoDB. Explain the concept of indexes, how they are created, and how they impact query performance.
+
+What is sharding in MongoDB?
+Sharding is a method used to distribute data across multiple machines. Explain how MongoDB uses sharding to scale horizontally.
+
+What is the purpose of the _id field in a MongoDB document?
+The _id field is a mandatory field in every MongoDB document. It serves as a unique identifier for the document within a collection.
+
+Differentiate between findOne() and find() in MongoDB.
+findOne() returns a single document that satisfies the specified query criteria, while find() returns a cursor to the documents that match the query criteria.
+
+Explain the aggregation framework in MongoDB.
+The aggregation framework in MongoDB provides powerful data aggregation and transformation operations. Understand how to use stages like $match, $group, and $project in aggregation pipelines.
+
+What is the role of the mongod process?
+mongod is the primary daemon process for the MongoDB system. It manages data requests, manages data storage, and performs other tasks.
+
+How does MongoDB ensure high availability?
+MongoDB ensures high availability through features like replication. Explain the concept of replica sets and how they contribute to high availability.
+
+What is the WiredTiger storage engine?
+WiredTiger is the default storage engine for MongoDB starting from version 3.2. It provides support for document-level concurrency control, compression, and more.
+
+Explain the concept of capped collections in MongoDB.
+Capped collections are fixed-size collections that maintain insertion order. Once a collection reaches its maximum size, older documents are removed to make space for new ones.
+
+How does MongoDB handle transactions?
+MongoDB supports multi-document transactions starting from version 4.0. Explain how transactions work in MongoDB and when they should be used.

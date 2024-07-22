@@ -1,0 +1,24 @@
+
+Explain what push notifications are and how they work in the context of mobile applications.
+
+How do you implement push notifications in an Ionic application? Describe the necessary steps and technologies involved.
+
+What is the role of Firebase Cloud Messaging (FCM) in Ionic push notifications, and how do you set it up in an Ionic project?
+
+Can you explain the difference between local notifications and push notifications in Ionic? When would you use one over the other?
+
+Describe the process of handling push notification permissions in Ionic applications. How do you request and manage user consent for receiving push notifications?
+
+Explain the lifecycle of a push notification in an Ionic app. How does the app respond when a notification is received, and how can you customize this behavior?
+
+Discuss the challenges and best practices in implementing push notifications for both Android and iOS platforms in Ionic.
+
+How do you handle scenarios where the user disables push notifications on their device? What strategies can be employed to encourage users to enable notifications?
+
+What is the difference between foreground and background push notifications in Ionic, and how does the application behave in each case?
+
+Can you demonstrate how to send a push notification to a specific user or a group of users in an Ionic application using FCM or another push notification service?
+
+Discuss the security considerations and best practices when dealing with push notifications in Ionic. How can you ensure the integrity and confidentiality of notifications?
+
+Explain the role of service workers in the context of push notifications in Ionic. How are they used to enhance the reliability of notifications?

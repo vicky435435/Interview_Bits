@@ -1,0 +1,49 @@
+
+What is REST?
+Answer: REST stands for Representational State Transfer. It is an architectural style for designing networked applications. 
+REST is based on a set of principles, such as stateless communication, client-server architecture, and the use of standard HTTP methods (GET, POST, PUT, DELETE) for operations on resources.
+
+2. What are the key principles of REST?
+Answer:
+
+Statelessness: Each request from a client to a server must contain all the information needed to understand and fulfill that request.
+Client-Server Architecture: The client and server are separate entities that communicate over a network. The client is responsible for the user interface, and the server is responsible for processing requests and managing resources.
+Uniform Interface: The API should have a consistent and uniform interface, typically including resource identification, representation, and manipulation.
+Resource-Based: Resources (data or services) are identified by URLs, and they can be manipulated using standard HTTP methods.
+3. What is a resource in the context of REST?
+Answer: A resource is an entity or object that can be identified, named, and manipulated in a RESTful system. Resources are typically identified by URIs, and they can be represented in different formats (such as JSON or XML).
+
+4. Explain the difference between PUT and POST.
+Answer:
+
+PUT: Used to update or create a resource if it doesn't exist. It is idempotent, meaning that multiple identical requests should have the same effect as a single request.
+POST: Used to submit data to be processed to a specified resource. It is not idempotent, and multiple identical requests may have different effects.
+5. What is idempotence, and why is it important in REST?
+Answer: Idempotence means that a given operation will produce the same result regardless of how many times it is executed. In the context of REST, idempotence ensures that repeating a request has the same effect as making the request only once. This is important for reliability and fault tolerance in distributed systems.
+
+6. Explain the purpose of HTTP methods GET, POST, PUT, and DELETE in RESTful services.
+Answer:
+
+GET: Retrieve data from the server.
+POST: Submit data to be processed to a specified resource.
+PUT: Update a resource or create it if it doesn't exist.
+DELETE: Remove a resource.
+
+7. What is the role of status codes in REST?
+Answer: Status codes indicate the outcome of a request. They provide information about the success or failure of a request and help the client and server communicate effectively. For example, 200 OK indicates success, 404 Not Found indicates that the requested resource was not found, and 500 Internal Server Error indicates a server-side error.
+
+8. Explain the concept of content negotiation in REST.
+Answer: Content negotiation is the process of selecting the best representation for a given response when there are multiple representations available. Clients and servers can negotiate the content type, language, and encoding for the data exchange.
+
+9. What is HATEOAS?
+Answer: HATEOAS stands for Hypermedia As The Engine Of Application State. It is a constraint in the REST architecture that says that the representation of a resource should include links to related resources. This allows clients to navigate the application's functionality through hypermedia links.
+
+10. How do you secure a RESTful API?
+Answer:
+
+Use HTTPS to encrypt data in transit.
+Implement authentication mechanisms (e.g., OAuth, API keys).
+Use authorization mechanisms to control access to resources.
+Validate and sanitize input data to prevent security vulnerabilities (e.g., SQL injection, cross-site scripting).
+Keep the software and dependencies up to date to patch security vulnerabilities.
+These are just a few examples, and the depth of questions can vary depending on the job level and specific requirements of the position. It's essential to be familiar with the fundamentals and have practical experience working with RESTful services.

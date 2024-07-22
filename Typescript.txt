@@ -1,0 +1,13 @@
+
+1. What is TypeScript ?
+
+Object-oriented language: TypeScript supports all features of the object-oriented language, such as classes, modules, interfaces, etc. 
+Both for client-side and server-side development, code written.
+
+TypeScript can run in any environment that JavaScript runs on.
+It is portable across operating systems, browsers, and devices.
+
+
+2. Explain the difference between let, const, and var in TypeScript.
+
+let and const are block-scoped, while var is function-scoped. Additionally, const is used for declaring constants, and variables declared with it cannot be reassigned.

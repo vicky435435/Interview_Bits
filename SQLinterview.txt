@@ -1,0 +1,59 @@
+1. What is SQL?
+SQL stands for Structured Query Language. It is a domain-specific language used to manage and manipulate relational databases.
+
+2. Explain the difference between SQL and NoSQL databases.
+SQL databases are relational and use a structured schema, whereas NoSQL databases are non-relational and use a dynamic schema for unstructured data.
+
+3. What is a primary key?
+A primary key is a unique identifier for a record in a table. It ensures that each row in a table is uniquely identified.
+
+4.What is the difference between INNER JOIN and LEFT JOIN?
+INNER JOIN returns only the rows where there is a match in both tables,
+while LEFT JOIN returns all rows from the left table and the matched rows from the right table.
+
+5. Explain the ACID properties in the context of databases.
+ACID stands for Atomicity, Consistency, Isolation, and Durability. These properties ensure the reliability of database transactions.
+
+6.What is normalization?
+Normalization is the process of organizing data in a database to reduce redundancy and improve data integrity. It involves dividing large tables into smaller ones and defining relationships between them.
+
+7.What is the difference between GROUP BY and HAVING clauses?
+GROUP BY is used to group rows that have the same values in specified columns, while HAVING is used to filter the results of aggregate functions applied to the grouped data.
+
+8.Explain the purpose of the SQL WHERE clause.
+The WHERE clause is used to filter records based on a specified condition. It is used in SELECT, UPDATE, and DELETE statements.
+
+9.What is a foreign key?
+A foreign key is a field in a table that refers to the primary key in another table. It establishes a link between the two tables.
+
+10.Write an SQL query to retrieve data from two tables using a JOIN statement.
+Example:
+sql
+Copy code
+SELECT * FROM employees
+INNER JOIN departments ON employees.department_id = departments.department_id;
+
+11.How do you find the second highest salary from an "employees" table?
+Example:
+sql
+Copy code
+SELECT MAX(salary) 
+FROM employees 
+WHERE salary < (SELECT MAX(salary) FROM employees);
+
+12.Explain the difference between UNION and UNION ALL.
+UNION combines the result sets of two SELECT statements, removing duplicate rows, while UNION ALL includes all rows, including duplicates.
+
+13.What is a stored procedure?
+A stored procedure is a precompiled collection of one or more SQL statements that can be executed as a single unit. It is stored in the database for reuse.
+
+14.What is a view in SQL?
+A view is a virtual table based on the result of a SELECT query. It does not store the data itself but provides a way to represent data from one or more tables.
+
+15.how do you delete duplicate rows in a table?
+Example:
+sql
+Copy code
+DELETE FROM table_name
+WHERE column1 = value1 AND column2 = value2
+AND rowid not in (SELECT MAX(rowid) FROM table_name GROUP BY column1, column2);

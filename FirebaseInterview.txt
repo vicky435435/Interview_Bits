@@ -1,0 +1,39 @@
+1.What is Firebase?
+
+Firebase is a mobile and web application development platform acquired by Google. It provides a set of tools and services to help developers build and scale applications.
+Firebase is a mobile and web application development platform developed by Google. It provides developers with tools to develop applications that can be used on both Android and 
+
+2.Explain Realtime Database in Firebase.
+
+Firebase Realtime Database is a NoSQL cloud database that stores data in JSON format. It allows data to be synchronized in real-time across multiple clients.
+
+3.How does Firebase Authentication work?
+
+Firebase Authentication is a service that allows users to sign in to your app. It supports various authentication methods, including email/password, Google Sign-In, Facebook Login, etc.
+
+4. What is Firebase Cloud Firestore?
+
+Firestore is a NoSQL document database by Firebase that is designed to store, query, and synchronize data for mobile and web apps.
+
+5.Explain Firebase Cloud Functions.
+
+Firebase Cloud Functions allow you to run server-side code in response to events triggered by Firebase features and HTTPS requests. It is often used for backend logic.
+
+6.How does Firebase handle security?
+
+Firebase Security Rules are used to control access to Firebase services. These rules define who can read and write data and are defined in a JSON-like syntax.
+
+7. What is Firebase Cloud Messaging (FCM)?
+
+FCM is a cloud solution for messages on iOS, Android, and web applications. It allows you to send messages to users across platforms.
+
+8.Explain Firebase Hosting.
+
+Firebase Hosting is a web hosting service for your web apps. It allows you to deploy and serve your static and dynamic content quickly and securely.
+
+9. What is Firebase Authentication and Authorization?
+
+Authentication is the process of verifying the identity of a user, while authorization is the process of determining whether a user has the necessary permissions to perform a specific action.
+How can you secure sensitive information in Firebase?
+
+Sensitive information such as API keys should be stored securely. Firebase provides a way to store configuration information using environment variables or in a separate configuration file.

@@ -1,0 +1,19 @@
+
+
+1. What's a micro-frontend ? 
+
+Micro-frontend is the same concept but applied to front-end applications. 
+This approach allows us to create smaller applications, that can be developed,
+tested, and built individually and will be integrated as part of a larger application, probably using routing to serve each application.
+
+2. Can you explain what a monolithic architecture is?
+
+A monolithic architecture is one in which all of the functionality for an application is contained within a single codebase. 
+This can make development and deployment simpler, but it can also lead to problems if the application needs to be scaled or updated, as the entire codebase will need to be changed.
+
+3 . Can you give an example of a monolithic application that was converted to a micro frontend app?
+A good example of a monolithic application that was converted to a micro frontend app is the online retailer Zalando.
+Zalando originally had a monolithic frontend architecture, but they converted to a micro frontend architecture in order to improve the performance and scalability of their website.
+
+
+

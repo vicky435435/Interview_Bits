@@ -1,0 +1,15 @@
+
+Question 1: Can you explain the concept of Nx libraries in Angular development?
+
+Answer:
+Nx libraries are reusable units of code that encapsulate specific functionality in an Angular project.
+They can include components, services, or utilities and are created to promote code organization, modularity, and code-sharing across different applications within a monorepository.
+Nx allows developers to create, manage, and share libraries effectively, contributing to a scalable and maintainable codebase.
+
+Question 2: Walk me through the process of creating a new Nx library in an Angular project.
+
+Answer:
+To create a new Nx library, I would use the following command:
+nx generate @nrwl/angular:library my-library
+
+

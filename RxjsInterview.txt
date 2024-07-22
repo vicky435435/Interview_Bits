@@ -1,0 +1,22 @@
+
+1. What is RxJS?
+
+A2. RxJS, short for Reactive Extensions for JavaScript,
+is a library for composing asynchronous and event-driven programs using observable sequences. 
+
+2. What are RxJS operators?
+
+A10. RxJS operators are functions that allow developers to manipulate and transform Observable streams. 
+They can be used for tasks like filtering, mapping, combining, and error handling.
+Operators are categorized as creation, transformation, filtering, combination, multicasting, error handling, and utility operators.
+
+3.How are Observables used in Angular applications?
+
+Handling HTTP requests with the HttpClient module
+Managing user interactions, such as button clicks and form submissions
+Managing state changes in reactive forms
+Building custom state management solutions, like NgRx
+Handling real-time data streams with WebSockets
+
+
+

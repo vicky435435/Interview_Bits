@@ -1,0 +1,39 @@
+
+
+What is Node.js?
+Node.js is an open-source, cross-platform JavaScript runtime environment that executes JavaScript code server-side. It allows developers to build scalable network applications.
+
+Explain the event-driven architecture of Node.js.
+Node.js is built on an event-driven, non-blocking I/O model. This means that it uses events to handle asynchronous operations and is designed to be efficient and scalable.
+
+What is npm?
+npm (Node Package Manager) is the default package manager for Node.js. It is used to install, share, and manage dependencies for Node.js projects.
+
+What is the difference between Callbacks, Promises, and Async/Await in Node.js?
+Callbacks are functions passed as arguments to other functions and are executed when the function completes. Promises provide a cleaner way to handle asynchronous operations, and Async/Await is syntactic sugar built on top of Promises for more readable asynchronous code.
+
+Explain the purpose of the package.json file.
+package.json is a metadata file for a Node.js project. It contains information about the project, its dependencies, and various configurations. It is also used by npm to manage project dependencies.
+
+What is the purpose of the express module in Node.js?
+Express is a web application framework for Node.js. It simplifies the process of building robust web applications and APIs by providing a set of features and tools for routing, middleware, and handling HTTP requests and responses.
+
+What is middleware in Express.js?
+Middleware functions are functions that have access to the request, response, and the next function in the application’s request-response cycle. 
+They can perform tasks such as modifying the request or response objects, ending the request-response cycle, and calling the next middleware function.
+
+Explain the concept of streams in Node.js.
+Streams are objects in Node.js that allow reading or writing data sequentially. They provide an efficient way to handle large amounts of data by breaking it into chunks and processing it piece by piece.
+
+How does Node.js handle concurrent requests?
+Node.js is single-threaded but uses an event-driven, non-blocking I/O model. It handles concurrent requests by using an event loop that processes events in a non-blocking way, allowing it to efficiently handle multiple requests.
+
+What is the purpose of the module.exports and exports in Node.js?
+module.exports is used to expose elements (functions, objects, or primitive values) from a module, making them available for other modules to consume. exports is a shorthand for module.exports.
+
+What is the purpose of the __dirname and __filename variables in Node.js?
+__dirname represents the directory name of the current module, and __filename represents the filename of the current module. They provide the absolute path of the directory and file, respectively.
+
+
+Explain the concept of the Event Loop in Node.js.
+The Event Loop is a core concept in Node.js that allows it to perform non-blocking I/O operations, even though it is single-threaded. It continuously checks the message queue for pending events and executes callback functions associated with these events.

@@ -1,0 +1,187 @@
+
+What is JavaScript ?
+JavaScript is a lightweight, cross-platform, single-threaded, and interpreted compiled programming language. 
+
+What are JavaScript Data Types?
+Following are the JavaScript Data types:
+
+Number
+String
+Boolean
+Object
+Undefined
+
+
+Explain the difference between let, const, and var in JavaScript.
+Answer:
+var: Function-scoped, can be redeclared and reassigned. Variables will be hoisted
+let: Block-scoped, can be reassigned but not redeclared. Hoisted but not initialized
+const: Block-scoped, cannot be reassigned or redeclared.
+
+
+1 Difference between let and var ?
+
+The difference between let and var is in the scope of the variables they create: 
+Variables declared by let are only available inside the block where they're defined. 
+Variables declared by var are available throughout the function in which they're declared
+
+2 What is promise in javascript 
+
+A Promise can be in one of three states:
+
+Promises provide a cleaner and more flexible alternative to traditional callback functions for handling asynchronous code.
+
+Pending: The initial state; the promise is neither fulfilled nor rejected.
+
+Fulfilled: The operation completed successfully, and the promise has a resulting value.
+
+Rejected: The operation failed, and the promise has a reason for the failure.
+
+3. what is hosting in javascript ?
+
+Variable Hoisting:
+In JavaScript, variable declarations are hoisted to 
+the top of their containing scope during the compilation phase. 
+However, only the declarations are hoisted, not the initializations
+
+4 What is callback function ?
+
+In JavaScript, you can also pass a function as an argument to a function. 
+This function that is passed as an argument inside of another function is called a callback function.
+
+          aur -->
+In JavaScript, a callback function is a function that is passed as an argument to another 
+function and is executed after the completion of a specific task.
+
+What is callback function and normal function in JavaScript?
+What is a Callback Function in JavaScript? | 
+    => 
+A JavaScript callback is a function which is to be executed after another function has finished execution.
+A more formal definition would be - Any function that is passed as an argument to another function
+so that it can be executed in that other function is called as a callback function.
+
+
+5. What is MAP () in JavaScript?
+Description. map() creates a new array from calling a function for every array element. 
+map() does not execute the function for empty elements. map() does not change the original array.
+
+6. closure.
+In JavaScript, we need closures when a variable which is defined outside the scope in reference is accessed from some inner scope.
+
+AUR ==>
+
+The closure is a primary mechanism to private the data items. Closures give access to the outer function’s scope from the inner function's scope. Closures are created for every function in JavaScript. To define a closure,
+ create a function inside another function to expose it.
+
+7.What is meant by NULL in JavaScript?
+If no value has been given to the variable then, it is called a null object (or) null value.
+
+8. What is undefined and null in JavaScript?
+Undefined means a variable has been declared but has yet not been assigned a value. Null is an assignment value.
+It can be assigned to a variable as a representation of no value
+
+
+9 . What is filter () in JavaScript?
+Description. The filter() method creates a new array filled with elements that pass a test provided by a function. The filter() method does not execute the function for empty elements.
+The filter() method does not change the original array.
+
+10 .  What is ‘this’ keyword in JavaScript?
+‘This’ keyword refers to the object from where it was called.
+
+11 . What is the use of the Push method in JavaScript?
+The push method is used to add or append one or more elements to an Array end. 
+Using this method, we can append multiple elements by passing multiple arguments.
+
+13 Explain the concept of arrow functions in JavaScript.
+- **Answer:** Arrow functions are a concise syntax for writing function expressions in JavaScript. 
+They have a shorter syntax, don't have their own `this` binding (they inherit `this` from the enclosing scope), and cannot be used as constructors.
+
+
+12.  sort( )
+This method is used to arrange/sort array’s elements either in ascending or descending order.
+
+13. forEach( )
+This method helps to loop over array by executing a provided callback function for each element in an array.
+
+14. slice( )
+This method returns a new array with specified start to end elements.
+
+15. shift( )
+This method removes the first element from an array and returns that element.
+
+16.  unshift( )
+This method adds one or more elements to the beginning of an array and returns the new length of the array.
+
+17.  join( )
+This method returns a new string by concatenating all of the array’s elements separated by the specified separator.
+
+18. filter( )
+This method creates a new array with only elements that passes the condition inside the provided function.
+
+19. map( )
+This method creates a new array with the results of calling a provided function on every element in this array.
+
+20. reduce( )
+This method applies a function against an accumulator and each element in the array to reduce it to a single value.
+
+ How does the localStorage differ from sessionStorage in JavaScript?
+ - **Answer:**
+  - `localStorage`: Persists data with no expiration date. Data will not be deleted when the browser is closed.
+  - `sessionStorage`: Persists data only for the duration of the page session. Data is deleted when the browser tab or window is closed.
+
+21. What is the event loop in JavaScript?
+
+The event loop is a core concept in JavaScript that handles asynchronous operations. 
+It continuously checks the call stack and the message queue, pushing functions onto the call stack when the stack is empty.
+
+22.  What is the difference between "==" and "===" in JavaScript?
+
+== is the equality operator, which performs type coercion, 
+meaning it converts operands to the same type before making the comparison.
+
+=== is the strict equality operator, which does not perform type coercion and checks both value and type.
+
+
+23. What is an IIFE, and why might you use it in JavaScript?
+
+Answer: An IIFE is a function expression that is immediately invoked after its creation.
+It is often used to create a private scope for variables, preventing them from polluting the global scope and providing a way to encapsulate code.
+
+24. What are the types of loops in JavaScript?
+
+Answer: JavaScript supports several types of loops, including for, while, do-while, and the newer for...of and for...in loops.
+
+25. Explain the difference between for and while loops in JavaScript.
+
+Answer: The for loop is typically used when the number of iterations is known, while the while loop is used when the condition for termination is based on a true/false statement.
+
+26. What is a await in javascript ?
+
+In JavaScript, the await keyword is used in conjunction with the async function to handle asynchronous code in a more synchronous and readable manner.
+The await expression causes the async function to pause and wait for the Promise to settle, and then resumes and returns the resolved value.
+
+27. What is setInterval in JavaScript?
+setInterval() is a function in JavaScript that is used to repeatedly execute a given function at a specified interval.
+ It takes two arguments: the first argument is the function to be executed,
+
+28. What is difference between setTimeout and setInterval in JavaScript?
+
+The setTimeout() method is used to call a function after a certain period of time. 
+The setInterval() Javascript method is used to call a function repeatedly at a specified interval of time. 
+setTimeout() is cancelled by clearTimeout() method, and setInterval() is cancelled by clearInterval() method.
+
+29. What is the main difference between localStorage and sessionStorage.
+
+LocalStorage is the same as SessionStorage but it persists the data even when the browser is closed and reopened(i.e it has no expiration time) 
+whereas in sessionStorage data gets cleared when the page session ends.
+
+
+30. What are the differences between cookie, local storage and session storage
+
+Local storage : client-side only , until deleted,  Not supported for SSL
+
+Session storage : client-side only , until tab is closed, Not supported for SSL
+
+Local storage: It stores data for current origin with no expiration date.
+21`2w+95e
+Session storage: It stores data for one session and the data is lost when the browser tab is closed.

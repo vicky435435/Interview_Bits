@@ -1,0 +1,125 @@
+
+Ionic is an open-source framework for building cross-platform mobile applications.
+It uses web technologies like HTML, CSS, and JavaScript/TypeScript to create native-like user interfaces and experiences
+
+1. What is Ionic ? What are the prerequisites for installing Ionic framework ?
+Ionic is a mobile app development framework used to build hybrid apps.
+Hybrid apps are basically web apps running in a browser within a wrapper that  has access to the native platform layer. 
+Ionic framework is an HTML5 framework. It needs a native wrapper like Cordova or PhoneGap in order to run as a native app. Ionic framework lets you maintain one codebase and create builds for both Android and iOS platforms.
+
+NodeJS , npm are required in order to install Ionic. You need NodeJS 6.0.0+ or a higher version in order to install ionic. 
+
+2. What is Lazy loading ?
+
+Lazy loading refers to the process of loading chunks of code (such as a components, directive or pipe) 
+when its request not when the app is loading . 
+the most obvious benifits of lazing loading. is th increased performance especially when the app is starting .
+
+Aur =>
+
+Lazy loading is a technique used in Ionic to load only the necessary components and modules when they are required, 
+rather than loading the entire application at once. This improves the initial load time of the application
+
+
+3. How many Types of storage avaialble in ionic framework ?
+
+The ionic framework supports many types of storage which include: 
+HTML5 Local storage , 
+Cookie and Session storage, 
+Indexed DB ,
+ Web sql,
+ Pouch DB, 
+ WebServices/api storage and Cordova storage.
+aur ==> ionic provides two native plugin this ionic storage and ionic secure storage
+
+4. Ionic lifecycle hooks
+
+Ionic 2 & 3 had these lifecycle events : ionViewDidLoad, ionViewWillEnter, 
+
+ionViewDidEnter, ionViewWillLeave, ionViewDidLeave, ionViewWillUnload, 
+
+ionViewCanEnter, ionViewCanLeave. 
+
+ionViewDidLoad : Fired only when a view is stored in memory, will not fire if view has been already cached. 
+ionViewWillEnter : fired when entering a page, before it becomes active one. this event is triggered every time user enters in the view. 
+ionViewDidEnter : fired when entering a page, after it becomes active page. 
+ionViewWillLeave : fired when user leaves a page, before it stops being the active page. 
+ionViewDidLeave : fired when user leaves a page, after it stops being the active page. 
+ionViewWillUnload : fired when a view is going to be completely removed. 
+ionViewCanEnter : this is a nav guard. fired before entering a view. Useful when you want to control access to pages based on access credentials. 
+ionViewCanLeave : this is also a nav guard, fired before leaving a view. 
+
+Allows you to control whether user can exit the view or not Ionic 4 provides the Angular lifecycle hooks in addition to the above listed Ionic lifecycle hooks. All the angular lifecycle hooks are available. 
+
+ngOnChanges , ngOnInit, ngDoCheck, ngAfterContentInit, ngAfterContentChecked, 
+ngAfterViewInit, ngAfterViewChecked, ngOnDestroy .
+
+5. Explain the use of Ionic services.
+Services are used for data sharing and communication between different parts of an app.
+
+6. How can you improve the security of an Ionic app?
+Implement security best practices like data validation, input sanitization, and using HTTPS for communication.
+
+7. How do you optimize the loading time of an Ionic app?
+Optimize loading times by reducing the app's initial bundle size, leveraging lazy loading, and using code splitting.
+
+8. How do you handle HTTP requests in Ionic?
+Use Angular's HttpClient module for making HTTP requests to fetch data from a server.
+
+9. What is the role of Ionic Native plugins?
+Ionic Native plugins provide access to device features like camera, geolocation, and more.
+
+10 . How does Ionic handle navigation between pages?
+
+Ionic uses a NavController for navigating between pages. 
+Developers can use the NavController's methods like push and pop to navigate through the app's pages.
+
+11. Explain the concept of Ionic Guards.
+
+Guards in Ionic are used to control navigation based on certain conditions. 
+They can be used to protect routes and prevent unauthorized access to certain pages.
+
+12. Explain the purpose of the Ionic Grid system.
+
+The Ionic Grid system is a flexible and responsive layout system based on a 12-column grid.
+It allows developers to create responsive UIs that adapt to different screen sizes.
+
+13. How can you handle state management in Ionic applications?
+
+Ionic apps often use state management libraries like NgRx or Redux for managing the application state in a predictable way. 
+These libraries help in handling complex data flows and interactions. 
+Angular provides its own state management solution called NgRx (Reactive State Management).
+
+14. What is Capacitor in Ionic?
+
+Capacitor is a cross-platform API and code execution layer that allows Ionic apps to access native features on iOS, Android, and the web. 
+It is an alternative to Cordova, offering improved performance and additional features.
+
+15. Explain the concept of Ionic theming.
+Theming allows you to customize the look and feel of an Ionic app using CSS variables.
+
+16. What is the difference between IonContent and IonScroll?
+IonContent is a container for content, while IonScroll is used for scrolling within it.
+
+17 . What is the difference between Cordova and Capacitor?
+
+Cordova is focused on creating hybrid mobile apps using web technologies, while Capacitor is a newer alternative
+that provides more flexibility and better performance for modern web technologies.
+
+18.  Can you explain how lazy loading works in Ionic?
+Module-based Architecture:,
+RoutingModule:
+Lazy Loading Configuration: loadChildren
+Dynamic Imports:
+
+19. Explain the Ionic CLI.
+
+The Ionic Command Line Interface (CLI) is a powerful tool for Ionic developers.
+It provides commands for creating, building, testing, and deploying Ionic applications. 
+Developers can use the CLI to generate pages, components, and services, among other tasks.
+
+ionic start <app-name> [template],
+ionic generate <schematic> [options],   page , components , service
+ionic build <platform>
+ionic capacitor add <platform>   ios , Android
+ionic capacitor open <platform>

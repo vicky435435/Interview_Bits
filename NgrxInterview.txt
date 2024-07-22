@@ -1,0 +1,31 @@
+
+
+1. What is Ngrx ?
+
+NgRx stands for Angular Reactive Extensions, NgRx Store provides reactive state management for Angular apps inspired by Redux.
+NgRx has libraries for managing both global and local state.
+
+2. What is NgRx State management ? 
+
+Inside the NgRX Store, a state is represented by a single JavaScript object. The state is either read-only or immutable.
+This means that there isn't a direct Store API for changing the Store's state object.
+
+3. What is NgRX Store Module ?
+
+The NgRX Store module is an Angular state management library. 
+It's based on the popular Redux React state management library. 
+The NgRX Store imports Redux's state management concepts and adds RxJS to enable an observable means of communication throughout the Store APIs, giving Angular developers a familiar experience with Angular app development.
+
+4. What is store in NgRx?
+
+A Store contains the application state. In the ngrx/store module, the Store works as a container for the state.
+Additionally, to build the communication channel, Angular components inject the Store into their constructors.
+
+select(), and dispatch()
+
+5. What is Middleware in NgRx?
+
+It is a set of functions that intercept each action that is dispatched in order to produce side effects. 
+They're part of the Ngrx/Effect library.
+
+

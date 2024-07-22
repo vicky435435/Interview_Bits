@@ -1,0 +1,59 @@
+
+
+1. What is semantic HTML?
+Semantic HTML is a coding style. It is the use of HTML markup to reinforce the semantics or meaning of the content. 
+
+For example: In semantic HTML <b> </b> tag is not used for bold statement as well as <i> </i> tag is not used for italic.
+Instead of these we use <strong></strong> and <em></em> tags.
+
+2.  What is iframe HTML?
+
+An inline frame (iframe) is a HTML element that loads another HTML page within the document.
+It essentially puts another webpage within the parent page.
+    AUR =>
+An iframe is an HTML document embedded inside another HTML document on a website.
+Think of it as a "webpage within a web page.
+
+
+3. List out the page structure elements of HTML5.
+
+Answer: Page structure elements of HTML5 are given below:
+
+<header>: Represents the header section and stores the starting information about the web page.
+<footer>: Represents the footer section (last portion) of the page.
+<nav>: Represents the navigation elements of the HTML page.
+<article>: It is a set of information.
+<section>: It is a set of instructions that is used inside the article block to define the basic structure of a page.
+<aside>: Sidebar content of the page.
+
+
+4. What is the difference between HTML elements and tags?
+HTML elements communicate to the browser to render text. When the elements are enclosed by brackets <>, they form HTML tags. 
+Most of the time, tags come in a pair and surround content.
+
+
+5. What are semantic elements in HTML? Provide examples.
+Answer: Semantic elements convey the meaning of their content to both the browser and the developer.
+Examples include <header>, <nav>, <article>, <section>, <footer>, and <figure>.
+
+6.  Explain the difference between <div> and <span> elements.
+Answer:
+<div> is a block-level element used to group other elements and apply styles.
+<span> is an inline element used to apply styles or scripting to a specific part of text.
+
+7. How does CSS work with HTML?
+CSS stands for Cascading Style Sheets. It allows you to control how HTML documents look by applying style rules to different parts of your code.
+
+8.  What is the purpose of the <meta> tag in HTML?
+Answer: The <meta> tag is used to provide metadata about an HTML document, such as character set, viewport settings for responsive design, 
+and information for search engines.
+
+9.What is the purpose of the alt attribute in the <img> tag?
+
+Answer: The alt attribute provides alternative text for an image, which is displayed if the image cannot be loaded. 
+It also improves accessibility for screen readers.
+
+10 . Differentiate between inline and block-level elements in HTML.
+
+Answer: Block-level elements start on a new line and take up the full width available,
+while inline elements do not start on a new line and only take up as much width as necessary.
