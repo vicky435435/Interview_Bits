@@ -83,8 +83,7 @@ Class decorators =>
 These decorators are applied to classes.  @Component and @NgModule
 
 Property decorators =>
-These decorators are applied to properties. @Input, @Output, @HostBinding,
-@HostListener
+These decorators are applied to properties. @Input, @Output, @HostBinding, @HostListener
 
 Method decorators =>
 @HostListener (This decorator is used for methods inside a class like a click, mouse hover, etc.)
@@ -265,3 +264,27 @@ Services allow for greater separation of concerns for your application and bette
 
 The constructor is called before the component is initialized, while ngOnInit is a lifecycle hook that iscalled
 after the component is initialized
+
+36.How do you handle form validation in Angular?
+
+Template-driven forms: Use built-in validators like required, minlength, etc.
+Reactive forms: Use Validators to create custom validators and apply them to form controls.
+
+What is an interceptors and how to implement it ?
+=> Interceptor can process the request and response of an HTTP request. 
+
+What is NgRx ?
+
+NgRx is State management library For Angular based on Redux. It uses Actions, Reducers, and Selectors .
+
+Explain Dependency Injection ?
+
+Dependency  Injection (DI) allows Angular  to provide instances of Services  and other dependencies.
+
+Difference between FormBuilder and FormGroup?
+
+=> FormBuilder simplifies the creation of forms. 
+FormGroup represents a group of controls.
+`FormGroup` allows precise form control management, 
+whereas `FormBuilder` streamlines complex form creation, 
+improving code efficiency and readability.

@@ -1,0 +1,55 @@
+    what is the Box Model Css ?
+    ans => It includes the content, padding border, and margin of an element .
+
+    What are sematics elements ?
+    ans => sematics elements (e.g <article>. <section>) describe the meaning of the content.
+
+    Position properties available in HTML ?
+    Ans =>  Static, relative, absolute, fixed, sitcky.
+
+    Static vs Fixed Position ?
+    Ans => Static is default and not affected by top/left . Fixed Stayes in place relative to the viewport.
+
+Difference between Fixed and Sticky position?
+Ans => Sticky toggles between relative and fixed based on scroll.
+
+Difference between display: none and visibility: hidden?
+Ans => Display: none removes the element from the layout. Visibility: hidden keeps the element in the layout but hides it.
+
+What is Flexbox?
+Ans => Flexbox is a CSS layout module designed to distribute space and align items in a container.
+
+Bootstrap used?
+Ans => Bootstrap is a CSS framework used for responsive design and pre-designed components.
+
+Advanced Css Questions :
+
+ What is the Di between inline , inline-block and Block elements?
+ > Block element (eg... <div> . <p>) Take up the full width and start on a new line.
+
+ > Inline elements (eg.. <span> , <a>) Only take up as much width as their  content and dont force a new line. 
+
+ > Inline-block elements behave like inline elements but can have padding, margin and width set.
+
+ What is the CSS  Z-index property and how does stacking context work ?
+
+> The Z - index property controls the vertical stacking  order of elements. Elements with higher
+z - index values appear on top of elements with lower values .
+
+
+What is the difference between realtive and absolute positioning ?
+
+>  Relative Positioning Moves an element reative to is normal position in the flow of the Document .
+>  absolute Positioning removes the element from the Document flow and position it realtive to the nearest
+positioned ancestor. 
+
+ What is the difference between em and rem units ?
+
+ > em is a realtive units based on the font-size of the element's parent. 
+ > rem is a realtive unit based on the root element (<html>) font size .
+
+ What is a media query ? 
+
+ > Media  queries are used to apply styles conditionally based on the device's characteristics, 
+ like screen width or orientation . 
+
