@@ -197,7 +197,7 @@ interceptor are a part of the Angular system. they transform and inspect request
 22. What is the main.ts file in Angular and used for ?
 
 main.ts file is the Entry point of your application , compiles the application with just-in-time and bootstraps the application. 
-angular can be bootstrapped in multiple environments we need to import a module specificto the environment. 
+angular can be bootstrapped in multiple environments we need to import a module specific to the environment. 
 
 23. What is the Auth guard in angular?
 AuthGuard is an angular route guard used to protect the routes from unauthenticated/unauthorized people.
@@ -275,11 +275,11 @@ What is an interceptors and how to implement it ?
 
 What is NgRx ?
 
-NgRx is State management library For Angular based on Redux. It uses Actions, Reducers, and Selectors .
+=> NgRx is State management library For Angular based on Redux. It uses Actions, Reducers, and Selectors .
 
 Explain Dependency Injection ?
 
-Dependency  Injection (DI) allows Angular  to provide instances of Services  and other dependencies.
+=> Dependency  Injection (DI) allows Angular  to provide instances of Services  and other dependencies.
 
 Difference between FormBuilder and FormGroup?
 
