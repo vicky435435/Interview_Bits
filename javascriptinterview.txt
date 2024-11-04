@@ -5,11 +5,14 @@ JavaScript is a lightweight, cross-platform, single-threaded, and interpreted co
 What are JavaScript Data Types?
 Following are the JavaScript Data types:
 
-Number
-String
-Boolean
-Object
-Undefined
+Number.
+String.
+Boolean.
+Null.
+Undefined.
+BigInt.
+Symbol.
+Object.,
 
 
 Explain the difference between let, const, and var in JavaScript.
@@ -17,6 +20,10 @@ Answer:
 var: Function-scoped, can be redeclared and reassigned. Variables will be hoisted
 let: Block-scoped, can be reassigned but not redeclared. Hoisted but not initialized
 const: Block-scoped, cannot be reassigned or redeclared.
+
+What is var, let, and const?
+
+var is function-scoped, while let and const are block-scoped. const cannot be reassigned.
 
 
 1 Difference between let and var ?

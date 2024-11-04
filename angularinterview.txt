@@ -166,7 +166,7 @@ The Angular directives are segregated into 3 parts:
 
 Component Directives : 
 Structural Directives :- ngFor, ngIf, ngSwitch
-Attribute Directives :- ngClass, ngStyle. ngDisabled, ngReadonly
+Attribute Directives :- ngClass, ngStyle, ngDisabled, ngReadonly
 
 18 . 14. How does one share data between components in Angular?
 
@@ -268,6 +268,7 @@ after the component is initialized
 36.How do you handle form validation in Angular?
 
 Template-driven forms: Use built-in validators like required, minlength, etc.
+
 Reactive forms: Use Validators to create custom validators and apply them to form controls.
 
 What is an interceptors and how to implement it ?
@@ -288,3 +289,13 @@ FormGroup represents a group of controls.
 `FormGroup` allows precise form control management, 
 whereas `FormBuilder` streamlines complex form creation, 
 improving code efficiency and readability.
+
+
+# What is the DOM?
+
+=> DOM (Document Object Model) represents the UI of Angular Web application.
+Angular manipulates the DOM through data-binding, directives, and events.
+
+# How to implement responsive web design?
+
+=> Use CSS media queries and Angular’s flex-layout library to handle responsiveness.
