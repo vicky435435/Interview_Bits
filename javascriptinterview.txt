@@ -190,5 +190,32 @@ Local storage : client-side only , until deleted,  Not supported for SSL
 Session storage : client-side only , until tab is closed, Not supported for SSL
 
 Local storage: It stores data for current origin with no expiration date.
-21`2w+95e
+
 Session storage: It stores data for one session and the data is lost when the browser tab is closed.
+
+31 What is the difference between null, undefined, and NaN in JavaScript?
+
+null = is an explicit assignment of no value.
+undefined = means a variable has been declared but not assigned a value.
+NaN = stands for "Not a Number" and occurs when an operation cannot result in a valid number.
+
+
+32 What is hoisting?
+Hoisting moves function and variable declarations to the top of the scope before execution.
+
+33 What is a closure?
+Closure is when an inner function has access to the outer function's variables even after the outer function has returned.
+
+34 find() Method
+
+The find() method is used to find the first element in an array that satisfies a given condition.
+It returns that element, or undefined if no element is found.
+
+35. What is the difference between find and filter in JavaScript? 
+
+find: Returns the first element in the array that satisfies the condition. 
+If no element matches, it returns undefined
+
+filter: Returns a new array containing all elements that satisfy the condition.
+If no elements match, it returns an empty array.
+

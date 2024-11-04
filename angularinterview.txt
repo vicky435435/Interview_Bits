@@ -166,7 +166,7 @@ The Angular directives are segregated into 3 parts:
 
 Component Directives : 
 Structural Directives :- ngFor, ngIf, ngSwitch
-Attribute Directives :- ngClass, ngStyle, ngDisabled, ngReadonly
+Attribute Dire.ctives :- ngClass, ngStyle, ngDisabled, ngReadonly
 
 18 . 14. How does one share data between components in Angular?
 
@@ -299,3 +299,4 @@ Angular manipulates the DOM through data-binding, directives, and events.
 # How to implement responsive web design?
 
 => Use CSS media queries and Angular’s flex-layout library to handle responsiveness.
+
