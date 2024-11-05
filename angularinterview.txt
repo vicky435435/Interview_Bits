@@ -300,3 +300,16 @@ Angular manipulates the DOM through data-binding, directives, and events.
 
 => Use CSS media queries and Angular’s flex-layout library to handle responsiveness.
 
+# What's the difference between Observables and Promises?
+
+You: Observables are for streams of data; Promises are for single values. 
+Observables are cancelable; Promises are not.
+
+# What is Lazy loading ?
+=> Lazy  Loading is a technique whree module are loaded on Demand, improving initial load 
+time and reducing the application's performance. consumption. 
+it enhances  performance by loading resources only when needed.
+
+
+
+
