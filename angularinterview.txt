@@ -155,9 +155,8 @@ It follows the concept model of browser's application navigation.
  automatically
 
  16. What are Services in Angular? 
-Angular Services perform tasks that are used by multiple components. 
-These tasks could be data and image fetching, network connections, and database management among others. 
-They perform all the operational tasks for the components and avoid rewriting of code. A service can be written once and injected into all the components that use that service.
+Services are classes that provide shared functionality across an Angular application, such as data access, logging, or communication with external APIs. 
+They promote code reusability and maintainability.
 
 17 . 11. What are directives in Angular?
 
@@ -302,13 +301,19 @@ Angular manipulates the DOM through data-binding, directives, and events.
 
 # What's the difference between Observables and Promises?
 
-You: Observables are for streams of data; Promises are for single values. 
-Observables are cancelable; Promises are not.
+You: Observables are for streams of data; Promises are for single values.
+Observables are cancelable; Promises are not. They are fundamentally different approaches to handling asynchronous operations.
 
 # What is Lazy loading ?
 => Lazy  Loading is a technique whree module are loaded on Demand, improving initial load 
 time and reducing the application's performance. consumption. 
 it enhances  performance by loading resources only when needed.
+
+# Difference between FormBuilder and FormGroup ?
+=> FormBuilder simplifies form creation in Angular. 
+FormGroup represents a group of controls, allowing for management and validation of complex form structure
+
+
 
 
 
