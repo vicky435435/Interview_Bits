@@ -52,8 +52,8 @@ the top of their containing scope during the compilation phase.
 However, only the declarations are hoisted, not the initializations
 
 4 What is callback function ?
-
-In JavaScript, you can also pass a function as an argument to a function. 
+ In JavaScript, a callback function is a function that is passed as an argument to another function, 
+ and is executed after the completion of a specific task within that other function.
 This function that is passed as an argument inside of another function is called a callback function.
 
           aur -->
@@ -213,9 +213,9 @@ It returns that element, or undefined if no element is found.
 
 35. What is the difference between find and filter in JavaScript? 
 
-find: Returns the first element in the array that satisfies the condition. 
+find(): Returns the first element in the array that satisfies the condition. 
 If no element matches, it returns undefined
 
-filter: Returns a new array containing all elements that satisfy the condition.
+filter(): Returns a new array containing all elements that satisfy the condition.
 If no elements match, it returns an empty array.
 

@@ -163,23 +163,68 @@
 
 //  6 How to all unique values in an array of objects by a specfic key and all unique duplicate values remove 
 
-const array7 = [
-    {id: 1,name : 'john'},
-    {id: 2, name : 'smith'},
-    {id: 3, name: 'show'},
-    {id: 4, name : 'smith'},
-    {id: 5, name: 'smith'}
-];
-const uniqueNames = [...new Set(array7.map(item => item.name))];
-console.log(uniqueNames)
+// const array7 = [
+//     {id: 1,name : 'john'},
+//     {id: 2, name : 'smith'},
+//     {id: 3, name: 'show'},
+//     {id: 4, name : 'smith'},
+//     {id: 5, name: 'smith'}
+// ];
+// const uniqueNames = [...new Set(array7.map(item => item.name))];
+// console.log(uniqueNames)
 
 //  7 how to print trangle star pattern in javascript ?
 
 //   How can you flatten a nested array into a single flat array?
 
-const arr = [1, [2, 3], [4, [5, 6]]];
-const flatArray = arr.flat(Infinity);
-console.log(flatArray)
+// const arr = [1, [2, 3], [4, [5, 6]]];
+// const flatArray = arr.flat(Infinity);
+// console.log(flatArray)
 
+//8 How to find common elements betweens two arrays  in javascript ?
+
+// arrone = [1,3,2,7, 8, 4,5,0]
+// arrtwo = [3, 9, 10, 6 , 1, 4] 
+
+// function findCommonElements(arr1 , arr2) {
+//     const set1 = new Set(arr1);
+//     const set2 = new Set(arr2);
+//     const commonElements = new Set([...set1].filter(item => set2.has(item)));
+//     return Array.from(commonElements);
+    
+// }
+// const commonElements = findCommonElements(arrone, arrtwo);
+// console.log(commonElements)
+
+// 9 How to find the sum of all elements in an array ?
+
+// let values = [1, 2, 3, 4, 5];
+// let sum = values.reduce((acc, curr) => acc + curr, 0);
+// console.log(sum)
+
+//  Add and Removing Elements 
+
+
+//  Adding to the end 
+
+const animals = ["cat", "dog"];
+
+animals.push("Tiger");    //adding to the end 
+console.log(animals) 
+
+animals.pop();     // Removing from the end 
+console.log(animals)
+
+animals.unshift("fish", "pickcock"); //adding the beginning 
+console.log(animals)
+
+animals.shift()    // Removing from the beginning 
+console.log(animals)
+
+animals.splice(3, 0, "mouse");  // Adding at a specific index:  Inserts "mouse" at index 1 (before "dog"
+console.log(animals)
+
+animals.splice(2, 1,);
+console.log(animals); 
 
 
