@@ -102,3 +102,26 @@ Block elements, on the other hand, start on a new line and take up the full widt
 
 Answer: Flexbox is a layout model that allows design in a more efficient and predictable way in a container,
 distributing space along a single axis or across multiple axes.
+
+18. difference between adaptive design vs responsive design.
+
+Adaptive Design : Creates multiple fixed layouts tailored to specific screen sizes.
+Responsive Design : Uses a single, fluid layout that adjusts dynamically based on the screen size.
+
+19. the differences between CSS transition and transform ?
+
+transition: Animates changes to CSS properties over time, creating smooth visual effects.
+transform: Instantly modifies an element's shape, size, position, or orientation without Animation
+
+20. What are the key differences between HTML5 and HTML4?" 
+
+HTML5 revolutionized web development with semantic structure, native multimedia, and the <canvas>, enabling richer, interactive experiences.
+HTML4, while foundational, relied on divs for layout, plugins for multimedia, and offered limited semantic capabilities.
+
+21. Describe the different ways to position elements in CSS.
+
+Static: The default positioning, where elements flow normally in the document.
+Relative: Elements are positioned relative to their normal position in the document flow.
+Absolute: Elements are positioned relative to their nearest positioned ancestor. If no positioned ancestor exists, they are positioned relative to the document body.
+Fixed: Elements are positioned relative to the browser window and remain fixed even when scrolling.
+Sticky: Elements behave like relatively positioned elements until they reach a specified threshold, then they become fixed.
